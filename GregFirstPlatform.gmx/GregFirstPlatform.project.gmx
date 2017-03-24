@@ -12,9 +12,16 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_solidWall</sprite>
     <sprite>sprites\spr_wall</sprite>
+    <sprites name="catsNDogs">
+      <sprite>sprites\spr_catWalkLeft</sprite>
+      <sprite>sprites\spr_catWalkRight</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\playerController_Step.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_default</font>
   </fonts>
@@ -26,6 +33,7 @@
     <object>objects\obj_deathPool</object>
     <object>objects\ob_timerDisplay</object>
     <object>objects\obj_door</object>
+    <object>objects\obj_cat</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TestLevel</room>
