@@ -60,7 +60,7 @@ if (secondsRemaining &lt; 0)
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="8" enumb="64">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -78,10 +78,11 @@ if (secondsRemaining &lt; 0)
           <argument>
             <kind>1</kind>
             <string>//draw_self()
-draw_rectangle(32, 0, 300, 25, true);
+draw_background_stretched_ext(bg_HUD,33, 5, 268, 25, c_white, 0.5);
+draw_rectangle(32, 5, 300, 30, true);
 draw_set_font(fnt_default);
 secondsRemainingFormatted = string_format(secondsRemaining, 3, 0);
-draw_text(35,3, "Seconds Remaining: " + secondsRemainingFormatted);
+draw_text(35,8, "Seconds Remaining: " + secondsRemainingFormatted);
 
 </string>
           </argument>

@@ -17,7 +17,9 @@
       <sprite>sprites\spr_catWalkRight</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_HUD</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\playerController_Step.gml</script>
