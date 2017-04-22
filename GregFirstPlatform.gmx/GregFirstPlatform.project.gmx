@@ -16,6 +16,7 @@
       <sprite>sprites\spr_catWalkLeft</sprite>
       <sprite>sprites\spr_catWalkRight</sprite>
     </sprites>
+    <sprite>sprites\spr_ball</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_HUD</background>
@@ -36,9 +37,11 @@
     <object>objects\ob_timerDisplay</object>
     <object>objects\obj_door</object>
     <object>objects\obj_cat</object>
+    <object>objects\ob_ball</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_TestLevel</room>
+    <room>rooms\rm_Physics</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
