@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>// variables
+            <string>/// Set up Timer variables
+// variables
 secondsRemaining = 60;
 </string>
           </argument>
@@ -49,7 +50,8 @@ secondsRemaining = 60;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>secondsRemaining-=(delta_time/1000000);
+            <string>/// Decrement time remaining
+secondsRemaining-=(delta_time/1000000);
 
 if (secondsRemaining &lt; 0)
 {
@@ -77,7 +79,8 @@ if (secondsRemaining &lt; 0)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//draw_self()
+            <string>/// Draw Seconds Remaining Timer
+//draw_self()
 draw_background_stretched_ext(bg_HUD,33, 5, 268, 25, c_white, 0.5);
 draw_rectangle(32, 5, 300, 30, true);
 draw_set_font(fnt_default);
