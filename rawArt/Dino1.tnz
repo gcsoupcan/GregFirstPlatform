@@ -6,10 +6,10 @@
     <cameras>
       <camera>
         <cameraSize>
-          16 9 
+          17.0667 17.0667 
         </cameraSize>
         <cameraRes>
-          1920 1080 
+          2048 2048 
         </cameraRes>
         <cameraXPrevalence>
           1 
@@ -37,7 +37,7 @@
           24 
         </fps>
         <path>
-          "+outputs\\.tif"
+          "C:\\Projects\\Development\\GregFirstPlatform\\rawArt\\.spritesheet"
         </path>
         <bpp>
           32 
@@ -46,7 +46,7 @@
           0 
         </multimedia>
         <threadsIndex>
-          2 
+          0 
         </threadsIndex>
         <maxTileSizeIndex>
           0 
@@ -70,6 +70,18 @@
           25 25 
         </timestretch>
         <formatsProperties>
+          <formatProperties ext="spritesheet">
+            <property name="Format" type="enum" value="Grid">
+              <item value="Grid"/>
+              <item value="Vertical"/>
+              <item value="Horizontal"/>
+              </property>
+            <property max="100" min="0" name="Top Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Bottom Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Left Padding" type="int" value="0"/>
+            <property max="100" min="0" name="Right Padding" type="int" value="0"/>
+            <property max="100" min="1" name="Scale" type="int" value="100"/>
+            </formatProperties>
           <formatProperties ext="tif">
             <property name="Byte Ordering" type="enum" value="IBM PC">
               <item value="IBM PC"/>
@@ -389,7 +401,7 @@
               0 
             </numberId>
             <name>
-              LevelColumn 
+              "LevelColumn AffineFx"
             </name>
             <fxId>
               "" 
@@ -438,10 +450,10 @@
         </nodePos>
         <camera>
           <cameraSize>
-            16 9 
+            17.0667 17.0667 
           </cameraSize>
           <cameraRes>
-            1920 1080 
+            2048 2048 
           </cameraRes>
           <cameraXPrevalence>
             1 
@@ -566,7 +578,7 @@
             0 
           </numberId>
           <name>
-            Output 
+            OutputFx 
           </name>
           <fxId>
             "" 
@@ -585,6 +597,6 @@
     </xsheet>
   <history>
     "| #    DATE:       Time:   MACHINE:    USER:           |"
-    "| #1   05 May 17   22:14   HPLAPTOP    soupy_43vcid3   |"
+    "| #1   05 May 17   22:47   HPLAPTOP    soupy_43vcid3   |"
   </history>
   </tnz>
